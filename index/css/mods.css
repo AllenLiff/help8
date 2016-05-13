@@ -1,0 +1,164 @@
+
+    /*modifications*/
+
+.cover_image {
+text-align: center;
+margin-top: 70px;
+}
+
+#logo_head {
+  max-width: 420px;
+  margin-top: -40px;
+  margin-bottom: -79px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo_head_1  {
+  max-width: 420px;
+  margin-top: -30px;
+  margin-bottom: -100px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+#timeline_logo {
+  max-width: 420px;
+}
+
+
+
+@media only screen and (max-width: 590px) {
+  #horiz {
+    display: none;
+  }
+  #logo_head {
+    margin-bottom: 5px;
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (min-width: 591px) {
+  #vert {
+    display: none;
+  }
+}
+
+
+   /*sizing for pointy slide show on Students Take Action*/
+
+#show1_ctr {
+  /*margin: 0px;*/
+  text-align: center;
+}
+
+#slides_holder {
+text-align: center;
+}
+
+
+   #slides {
+    width: 95%;
+    height: 490px;
+    margin-top: 70px;
+}
+
+
+.top_ctr {
+  text-align: center;
+}
+
+
+   /*leader-group svg sizing on action page*/
+
+   #leader-group {
+    width: 45%;
+    max-width: 190px;
+    margin-top: 12px;
+    margin-bottom: 22px;
+   }
+
+   /*line height for action page*/
+
+   .line_ht1 {
+    line-height: .1em;
+   }
+
+
+     /*Join Other Schools Page*/
+
+     #schools_pic_lg {
+
+     width: 100%;
+     max-width: 900px;
+     margin-top: 70px;
+     }
+
+
+ /*calendar container - action page*/
+
+
+     .calendar_container {
+      border: 1px solid black;
+      max-width: 650px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      padding: 10px 9px 32px;
+
+     }
+
+     .calendar_pic_ctr {
+      text-align: center;
+     }
+
+
+     .calendar_pic {
+      max-width: 640px;
+      width: 95%;
+    }
+
+
+#events_button {
+  color:  #bb1133;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.arrow_down {
+  margin-bottom: 12px;
+}
+
+  #su {
+  max-width: 550px;
+  width: 90%;
+  height: 50px;
+  background: blue;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -6px;
+  margin: 4px auto -7px;
+  padding-top: 11px;
+  }
+
+@media only screen and (min-width: 491px) {
+    #schools_pic_sm {
+      display: none;
+    }
+}
+
+    @media only screen and (max-width: 490px) {
+      #schools_pic_lg {
+        display: none;
+      }
+        #schools_pic_sm {
+          width: 90%;
+        }
+    }
+

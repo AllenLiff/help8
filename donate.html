@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Fullscreen drag-slider with parallax</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
+
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans'>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+
+        <!-- <link rel="stylesheet" href="css/animations.css"> -->
+
+        <!-- pointy stuff -->
+        <link rel="stylesheet" href="nest/pointy_css/reset.css"> <!-- CSS reset -->
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+
+  <link rel="stylesheet" href="nest/pointy_css/donate.css">
+
+   <!-- Resource style -->
+
+ <link rel="stylesheet" href="nest/css/nav.css">
+
+    <script src="nest/pointy_js/modernizr.js"></script> <!-- Modernizr -->
+
+
+
+
+
+  </head>
+
+
+  <!-- <header> -->
+  <!-- <div id="top_ctr"> -->
+     <div id="logo_box">
+
+      <img id="env_logo" src="nest/img/logo2.svg">
+
+</div>
+
+<nav>
+    <ul class="cd-primary-nav">
+
+
+      <li><a href="#0">Start a project</a></li>
+      <li><a href="#0">Join In</a></li>
+      <li><a href="#0">Create an account</a></li>
+      <li><a href="#0">Donate</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="file:///C:/Users/Allen/Desktop/CP%20diddles/Timeline/index.html">Our History</a></li>
+      <li><a href="board.html">The Board</a></li>
+        <!-- </div> -->
+       <!-- </div> -->
+    </ul>
+  </nav>
+
+
+
+  <body>
+
+
+
+<div class="cd-slider-wrapper">
+    <ul class="cd-slider">
+      <li class="is-visible">
+        <div class="cd-half-block image"></div>
+
+        <div class="cd-half-block content">
+          <div>
+            <h2>DONATE</h2>
+            <p class="index_p">
+              Help Portland's high school students in their fight for environmental justice!
+            </p>
+              <a href="#">
+            <img src="nest/img/donate2.png"></a>
+
+          </div>
+        </div>
+      </li> <!-- .cd-half-block.content -->
+
+
+
+    </ul> <!-- .cd-slider -->
+  </div> <!-- .cd-slider-wrapper -->
+
+
+
+
+
+
+
+
+
+   <!-- for rounded animated nav -->
+<div class="cd-overlay-nav">
+    <span></span>
+  </div> <!-- cd-overlay-nav -->
+
+  <div class="cd-overlay-content">
+    <span></span>
+  </div> <!-- cd-overlay-content -->
+  <a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
+
+
+
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="nest/js/index.js"></script>
+
+
+
+
+<!-- pointy stuff -->
+<!--
+<script src="pointy_js/jquery-2.1.4.js"></script>
+<script src="pointy_js/jquery.mobile.custom.min.js"></script>
+ <script src="pointy_js/main.js"></script>
+
+ -->
+<!-- rounded animated nav -->
+<script src="nest/js/jquery-2.1.1.js"></script>
+<script src="nest/js/velocity.min.js"></script>
+<script src="nest/js/main.js"></script> <!-- Resource jQuery -->
+
+
+
+<script>
+  $(window).scroll(function() {
+    $('#lscape_svg').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+400) {
+        $(this).addClass("slideUp");
+      }
+    });
+
+   $('#port_svg').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+400) {
+        $(this).addClass("slideUp");
+      }
+    });
+
+
+
+  });
+</script>
+
+  </body>
+</html>
