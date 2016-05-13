@@ -289,8 +289,8 @@ Slider Navigation
 }
 .cd-slider-navigation a {
   display: block;
-  height: 8px;
-  width: 8px;
+  height: 18px;
+  width: 18px;
   border-radius: 50%;
   color: transparent;
   /* image replacement */
